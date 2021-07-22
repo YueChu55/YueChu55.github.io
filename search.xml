@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2021/07/21/hello-world/"/>
-      <url>/2021/07/21/hello-world/</url>
+      <title>vim的基本快捷键操作</title>
+      <link href="/2021/07/22/vim%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%93%8D%E4%BD%9C/"/>
+      <url>/2021/07/22/vim%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%93%8D%E4%BD%9C/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="1，Linux-vim的常用快捷键"><a href="#1，Linux-vim的常用快捷键" class="headerlink" title="1，Linux /vim的常用快捷键"></a>1，Linux /vim的常用快捷键</h3><h4 id="1-移动"><a href="#1-移动" class="headerlink" title="1,移动"></a>1,移动</h4><blockquote><p>H J K L . </p></blockquote>  <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">H</span><span class="token operator">:</span>向左<span class="token class-name">L</span><span class="token operator">:</span>向右<span class="token class-name">J</span><span class="token operator">:</span>向下<span class="token class-name">K</span><span class="token operator">:</span>向上<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><blockquote><p>e : 跳跃到单词末尾</p><p>b :跳跃到单词首字母</p><p>w : 跳跃到下一个单词的首字母</p><p>shift + 6 : 跳跃到本行的开头</p><p>shift + $ : 跳跃到本行的末尾</p></blockquote><h4 id="2-翻页"><a href="#2-翻页" class="headerlink" title="2,翻页"></a>2,翻页</h4><blockquote><p>Ctrl + F :向下一页</p><p>Ctrl + B :向上一页</p><p>Ctrl + E :向下(符合视觉)</p><p>Ctrl + Y: 向上</p><p>shift + g : 翻到文件末尾</p><p>gg : 翻到文件开头</p></blockquote><h4 id="3-其它"><a href="#3-其它" class="headerlink" title="3,其它"></a>3,其它</h4><blockquote><p>i : 光标位置前面插入</p><p>a : 光标位置后面插入</p><p>o : 直接enter到下一行输入</p><p>x : 删除光标所在字符</p><p>dd : 删除光标所在行</p><p>u : 撤销</p><p>dw : 移除光标往后的单词</p></blockquote><h4 id="4-复制"><a href="#4-复制" class="headerlink" title="4,复制"></a>4,复制</h4><blockquote><p>y : 复制某一块</p><p>yy : 复制整行</p><p>y^ : 复制从光标到行头的内容</p><p>y$ : 复制光标到行尾的内容</p><p>yw : 复制一个word</p></blockquote><h4 id="5-剪切"><a href="#5-剪切" class="headerlink" title="5,剪切"></a>5,剪切</h4><blockquote><p>d : 剪切选定区域</p><p>dd : 剪切整行</p><p>d^ : 剪切至行首</p><p>d$:剪切至行尾</p><p>dw : 剪切一个word</p></blockquote><h4 id="6-V模式下"><a href="#6-V模式下" class="headerlink" title="6,V模式下"></a>6,V模式下</h4><blockquote><p>aw : 快速选中单词</p><p>ab : 快速选中小括号里的内容(包含括号)</p><p>aB : 快速选中大括号里的内容(包含括号)</p><p>&lt; : 代码向左缩进</p><p>‘ &gt; ‘: 代码向右缩进</p></blockquote><h4 id="7-查找与替换"><a href="#7-查找与替换" class="headerlink" title="7,查找与替换"></a>7,查找与替换</h4><blockquote><p>/ + 想要查找的内容</p><p>: +s+ / +被替换的内容 + 想要替换成的内容/g   （替换光标所在行中所有替换内容）</p><p>: n,m+s+ / +被替换的内容 + 想要替换成的内容/g   （替换n到m行中所有替换内容）</p><p>: + %s + / 被替换的内容 + 想要替换成的内容 /gc    (替换文件中所有替换内容 ，并由提示，若不想提示，可去掉c)</p></blockquote>]]></content>
       
       
+      <categories>
+          
+          <category> -linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -vim </tag>
+            
+        </tags>
       
     </entry>
     

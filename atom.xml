@@ -6,7 +6,7 @@
   <link href="https://yuechu55.github.io/atom.xml" rel="self"/>
   
   <link href="https://yuechu55.github.io/"/>
-  <updated>2021-07-21T09:33:42.565Z</updated>
+  <updated>2021-07-22T12:53:15.854Z</updated>
   <id>https://yuechu55.github.io/</id>
   
   <author>
@@ -17,23 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://yuechu55.github.io/2021/07/21/hello-world/"/>
-    <id>https://yuechu55.github.io/2021/07/21/hello-world/</id>
-    <published>2021-07-21T09:33:42.565Z</published>
-    <updated>2021-07-21T09:33:42.565Z</updated>
+    <title>vim的基本快捷键操作</title>
+    <link href="https://yuechu55.github.io/2021/07/22/vim%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%93%8D%E4%BD%9C/"/>
+    <id>https://yuechu55.github.io/2021/07/22/vim%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%93%8D%E4%BD%9C/</id>
+    <published>2021-07-22T12:40:54.000Z</published>
+    <updated>2021-07-22T12:53:15.854Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;h3 id=&quot;1，Linux-vim的常用快捷键&quot;&gt;&lt;a href=&quot;#1，Linux-vim的常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;1，Linux /vim的常用快捷键&quot;&gt;&lt;/a&gt;1，Linux /vim的常用快捷键&lt;/h3&gt;&lt;h4</summary>
         
       
     
     
     
+    <category term="-linux" scheme="https://yuechu55.github.io/categories/linux/"/>
+    
+    
+    <category term="-vim" scheme="https://yuechu55.github.io/tags/vim/"/>
     
   </entry>
   

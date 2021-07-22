@@ -111,17 +111,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/contact" class="waves-effect waves-light">
-      
-      <i class="fas fa-comments" style="zoom: 0.6;"></i>
-      
-      <span>留言板</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/friends" class="waves-effect waves-light">
       
       <i class="fas fa-address-book" style="zoom: 0.6;"></i>
@@ -214,17 +203,6 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/contact" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-comments"></i>
-			
-			留言板
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
 		<a href="/friends" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-address-book"></i>
@@ -263,7 +241,7 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['俗人昭昭，我独昏昏。俗人察察，我独闷闷。',''],
+                        strings: ['俗人昭昭，我独昏昏。俗人察察，我独闷闷。','为学日益，为道日损。损之又损，以至于无为。'],
                         startDelay: 300,
                         typeSpeed: 100,
                         loop: true,
@@ -280,7 +258,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    var bannerUrl = "/medias/banner/" + 8 + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -493,14 +471,14 @@
                             <div class="card frind-card1">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="http://image.luokangyuan.com/1_qq_27922023.jpg" alt="img">
+                                        <img src="https://cdn.jsdelivr.net/gh/Revincx/blog-assets@master/images/avatar.jpg" alt="img">
                                         <div>
-                                            <h1 class="friend-name">码酱</h1>
-                                            <p style="position: relative;top: -35px;">我不是大佬，只是在追寻大佬的脚步</p>
+                                            <h1 class="friend-name">Revincx</h1>
+                                            <p style="position: relative;top: -35px;">只有底力，没有实力，那怎么行!</p>
                                         </div>
                                     </div>
                                     <div class="friend-button">
-                                        <a href="http://luokangyuan.com/" target="_blank"
+                                        <a href="https://revincx.icu/" target="_blank"
                                             class="button button-glow button-rounded button-caution">
                                             前去学习
                                         </a>
@@ -640,20 +618,20 @@
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 
     
-    <div class="container row center-align" style="margin-bottom: 0px !important;">
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
-            Copyright&nbsp;&copy;
+            &nbsp;&copy;YueChu
             
-                <span id="year">2019-2021</span>
+                <span id="year">2021</span>
             
-            <span id="year">2019</span>
+            <span id="year">2021</span>
             <a href="/about" target="_blank">Yuechu</a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            |&nbsp;基于&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;主题&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery搭建</a>
             <br>
             
-            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">73</span>&nbsp;字
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;本站总字数:&nbsp;<span
+                class="white-color">426</span>&nbsp;字
             
             
             
@@ -661,17 +639,61 @@
             
             
             <span id="busuanzi_container_site_pv">
-                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
-                    class="white-color"></span>&nbsp;次
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;PV:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;
             </span>
             
             
             <span id="busuanzi_container_site_uv">
-                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
-                    class="white-color"></span>&nbsp;人
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;UV:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;
             </span>
             
             <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2021";
+                    var startMonth = "7";
+                    var startDate = "20";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
             
             <br>
             
