@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>YueChu的博客</title>
+  <title>YueChu|一起躺平鸭</title>
   
   <subtitle>世界无光，但是有你</subtitle>
   <link href="https://yuechu55.github.io/atom.xml" rel="self"/>
@@ -29,6 +29,31 @@
         
         
     <summary type="html">&lt;h3 id=&quot;1，Linux-vim的常用快捷键&quot;&gt;&lt;a href=&quot;#1，Linux-vim的常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;1，Linux /vim的常用快捷键&quot;&gt;&lt;/a&gt;1，Linux /vim的常用快捷键&lt;/h3&gt;&lt;h4</summary>
+        
+      
+    
+    
+    
+    <category term="-linux" scheme="https://yuechu55.github.io/categories/linux/"/>
+    
+    
+    <category term="-vim" scheme="https://yuechu55.github.io/tags/vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>集合的基础知识</title>
+    <link href="https://yuechu55.github.io/2021/07/22/%E9%9B%86%E5%90%88/"/>
+    <id>https://yuechu55.github.io/2021/07/22/%E9%9B%86%E5%90%88/</id>
+    <published>2021-07-22T12:40:54.000Z</published>
+    <updated>2021-08-09T01:50:46.476Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;集合&quot;&gt;&lt;a href=&quot;#集合&quot; class=&quot;headerlink&quot; title=&quot;集合&quot;&gt;&lt;/a&gt;集合&lt;/h3&gt;&lt;h4 id=&quot;1-1集合类的特点&quot;&gt;&lt;a href=&quot;#1-1集合类的特点&quot; class=&quot;headerlink&quot;</summary>
         
       
     
